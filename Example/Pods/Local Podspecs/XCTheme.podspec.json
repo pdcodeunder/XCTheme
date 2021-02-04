@@ -1,0 +1,22 @@
+{
+  "name": "XCTheme",
+  "version": "0.1.0",
+  "summary": "A short description of XCTheme.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pdcodeunder/XCTheme",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pdcodeunder": "pengdong2014@xiaochuankeji.cn"
+  },
+  "source": {
+    "git": "https://github.com/pdcodeunder/XCTheme.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XCTheme/Classes/**/*"
+}
