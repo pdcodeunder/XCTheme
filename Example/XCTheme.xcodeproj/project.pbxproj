@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6135DCE79E492AD7D9FE4F4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7F072B66DE8B208BC758C94E /* XCTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCTheme.podspec; path = ../XCTheme.podspec; sourceTree = "<group>"; };
+		7F072B66DE8B208BC758C94E /* XCTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCTheme.podspec; path = ../XCTheme.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83AE4039008109279B39D721 /* Pods-XCTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCTheme_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XCTheme_Tests/Pods-XCTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E237C50AB8270BA8622845B7 /* Pods_XCTheme_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7599E1E25CBD004009C90D3 /* XCTheme_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTheme_Example-Bridging-Header.h"; sourceTree = "<group>"; };

@@ -5,25 +5,51 @@
 [![License](https://img.shields.io/cocoapods/l/XCTheme.svg?style=flat)](https://cocoapods.org/pods/XCTheme)
 [![Platform](https://img.shields.io/cocoapods/p/XCTheme.svg?style=flat)](https://cocoapods.org/pods/XCTheme)
 
-## Example
+## 说明
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+一个支持oc和swift混编的主题切换库
 
-## Requirements
-
-## Installation
-
-XCTheme is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 插入
 
 ```ruby
 pod 'XCTheme'
 ```
 
-## Author
+## 使用
 
-pdcodeunder, pengdong2014@xiaochuankeji.cn
+swift:
+````swift
+view.theme.backgroundColor = .cffffff
+navigationController?.navigationBar.theme.backgroundColor = .cffffff
 
-## License
+let back = UIBarButtonItem(image: nil, style: .plain, target: self, action: #selector(backAction))
+back.theme.image = .name("nav_back")
 
-XCTheme is available under the MIT license. See the LICENSE file for more info.
+let normal = UIButton(type: .custom)
+normal.theme.backgroundColor = .c149eff
+normal.theme.setTitleColor(.cffffff, for: .normal)
+
+````
+
+oc:
+````objc
+self.view.theme_oc.backgroundColor = XCThemeColor.cffffff;
+[self.navigationController.navigationBar.theme_oc setBackgroundColor:XCThemeColor.cffffff];
+
+UIBarButtonItem *right1 = [[UIBarButtonItem alloc] initWithImage:nil style:UIBarButtonItemStylePlain target:self action:@selector(navMoreClicked)];
+[right1.theme_oc setImage:[XCThemeImage name:@"nav_more"]];
+
+UIBarButtonItem *right2 = [[UIBarButtonItem alloc] initWithImage:nil style:UIBarButtonItemStylePlain target:self action:@selector(navNotiClicked)];
+[right2.theme_oc setImage:[XCThemeImage name:@"nav_alert"]];
+
+UIButton *qq = [UIButton buttonWithType:UIButtonTypeCustom];
+[qq.theme_oc setImage:[XCThemeImage name:@"qq"] for:UIControlStateNormal];
+````
+
+## 作者
+
+pdcodeunder, pd767180024@163.com
+
+## 其他
+
+如果喜欢，给个 星星 ⭐️ 鼓励一下呗

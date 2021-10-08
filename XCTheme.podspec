@@ -27,7 +27,7 @@ iOS swift oc 可以混编的简洁皮肤系统
   s.author           = { 'pdcodeunder' => 'pengdong2014@xiaochuankeji.cn' }
   s.source           = { :git => 'https://git.ixiaochuan.cn/xcpod/XCTheme.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XCTheme/Classes/**/*'
