@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2DEF0FB59E778B083946CA004A77F8A1"
-               BuildableName = "XCTheme.framework"
+               BuildableName = "libXCTheme.a"
                BlueprintName = "XCTheme"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

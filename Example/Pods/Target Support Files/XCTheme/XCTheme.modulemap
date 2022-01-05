@@ -1,4 +1,4 @@
-framework module XCTheme {
+module XCTheme {
   umbrella header "XCTheme-umbrella.h"
 
   export *

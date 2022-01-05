@@ -20,10 +20,5 @@
     "ios": "9.0"
   },
   "source_files": "XCTheme/Classes/**/*",
-  "resource_bundles": {
-    "XCTheme": [
-      "XCTheme/Assets/*"
-    ]
-  },
   "swift_version": "5.0"
 }

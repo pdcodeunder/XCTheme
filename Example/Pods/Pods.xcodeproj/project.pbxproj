@@ -7,78 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112330F511677F1095D5CA7CCDD86E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1E3E38DDBB381A65FB51555075301672 /* ThemeObjc+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1613F821E29B02D28BAC1967F6D5C /* ThemeObjc+UIButton.swift */; };
-		1F7247C818C3CACBBFE3CFFB9A0A7D1B /* ThemeObjc+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545E097AD0BCB93BAA5DFE299C5CD8B /* ThemeObjc+UILabel.swift */; };
-		1FA534616624147FDA398AFB18CEF3CD /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05DDFF96F75F29C681DD500FF66EA60 /* UIButton+Theme.swift */; };
-		1FD76C5ECA3C8F99D43CC8A2E4B319DB /* UIView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2C35F3B0DEB8E91DAE869C62750D9 /* UIView+Theme.swift */; };
-		2DF0025C2FC0516B0AFA479EAC8EC491 /* ThemeObjc+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFECEB3219093F29A26F61A63A1748 /* ThemeObjc+UITextView.swift */; };
-		30EFF78FCB4C28474F55E19D2CF75DD0 /* Pods-XCTheme_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E46E4E9B90A0F3C0E589C5416A984442 /* Pods-XCTheme_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32C6067F813B5161DC3B2F9816C1715F /* XCTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA331F71692952FDB9EC6D51ECFB906 /* XCTheme.swift */; };
-		362F0984CD25AC86FA1F5DA1B2023AB7 /* ThemeObjc+UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946FD01D4F1DBC6B5D36BAE9A65A9D3 /* ThemeObjc+UINavigationBar.swift */; };
-		36FA0E7F297CE8C6E59BB60D8A72F547 /* XCThemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B6D2F280F5DAAD66AEEFE8E5B35E1E /* XCThemeTable.swift */; };
-		3796191C0258C0250E2C1118CEE9AB94 /* UILabel+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECCC1F8AABDF0A66F070E17691B8BE /* UILabel+Theme.swift */; };
-		3AE7352A965384395FF835FC5D864483 /* UIToolBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8923D4E970BD2A8E6538C68EEC047 /* UIToolBar+Theme.swift */; };
-		46F32B13D5429ACBA73340E90BA45B3D /* Pods-XCTheme_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C752CDF81E3493DA0A4AB4D40829D8 /* Pods-XCTheme_Example-dummy.m */; };
-		48BC97303773696954F60D8B6DCAFC43 /* ThemeObjc+UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62206E639D26C3BC1861445AC4F26C39 /* ThemeObjc+UIProgressView.swift */; };
-		4F7625AE07F771FC3784025F85683153 /* ThemeObjc+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2671AF4C8E6B889945F0030708BF5 /* ThemeObjc+UIBarButtonItem.swift */; };
-		53A01E74111258DD89A04E81BBA8910C /* XCTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB9104835A49508488CA85C48B78C70 /* XCTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D779C88785D7F6A4CE25C2805540220 /* XCThemeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02278D442CB5EB021C042B188DA394 /* XCThemeOperation.swift */; };
-		5F0A8CD410BD8C29BB247C03C37B9DEB /* UITextView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01F24199AB4A0A272E0AB75F5913170 /* UITextView+Theme.swift */; };
-		641AAE8AF5117FC09825F450A3CC41BF /* ThemeObjc+UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC0450793FB65B58DDAAD38D40AD58 /* ThemeObjc+UIPageControl.swift */; };
-		65E720B2B9E5105D6E63504117C76B08 /* UIPageControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9032022E564DF7E187EF50B62F6FA7 /* UIPageControl+Theme.swift */; };
-		67854CD9DE834AA3DABE16167FBC9C41 /* XCTheme-XCTheme in Resources */ = {isa = PBXBuildFile; fileRef = FE623931102E8FB85CDA780F45A8E3E7 /* XCTheme-XCTheme */; };
-		67EA36FD17F9A720BB7DB6E940D96FF9 /* UINavigationBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E11A11CA22162FAD5172EC614C7FD8 /* UINavigationBar+Theme.swift */; };
-		6953FA757293377C4A6CA0AE892FC813 /* ThemeObjc+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F70EF381EE810D022115B28C4D2EF07 /* ThemeObjc+UIImageView.swift */; };
-		6B34F5695AC8380745C0619D8EF26877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6E3AFDF3FEC8CDC56F7A8433A8CF9675 /* Pods-XCTheme_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92404AB666B1E11CF1068C6A846DF1FF /* Pods-XCTheme_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		730DD6813C7330120CF1E2FBB7D27D36 /* ThemeObjc+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265EB7DE0FAA93FA1E6E0606AD4E2F97 /* ThemeObjc+UITableView.swift */; };
-		799F0F72309C75D3C45A6841B6CA35D9 /* ThemeObjc+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409DE8DA4488B81924EA654F414A27B /* ThemeObjc+CALayer.swift */; };
-		85445E9049D216DA54AF4DC6EB18BE6A /* ThemeObjc+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CDF0EFDE9C1B38949A0C6183BF13B1 /* ThemeObjc+UITextField.swift */; };
-		899AC15517525AAE34118FF5380430F3 /* ThemeObjc+UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3514D4F785732B4A02142EC3BD848 /* ThemeObjc+UIBarItem.swift */; };
-		93414C08FDBC8F27DE23FE96B83A38BD /* CAShapeLayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5776171303FD340E24D753E8C4D6460B /* CAShapeLayer+Theme.swift */; };
-		A09923F9C4AA9853A52CD1B903F28017 /* Pods-XCTheme_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A13E11560D8C09EAEA9D0A676880E /* Pods-XCTheme_Tests-dummy.m */; };
-		A4DEFB3FC39CBECABFB2D213284BC173 /* UITableView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426C364DAA5303006FF2AC2FDC3D976 /* UITableView+Theme.swift */; };
-		A7ED3E3A36C4724B2E16ACDF316FA427 /* ThemeObjc+UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE3111CA87D5D136DF68F799966520 /* ThemeObjc+UISwitch.swift */; };
-		A84E35D3D319020C8349067332C12FD8 /* XCTheme_objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604693FCC49E1B79294D31068434AEC9 /* XCTheme_objc.swift */; };
-		AE39FE883EBAB02EC792522BE08F7EAA /* UIControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF91CBEB8491C702F65ECE6100762B1 /* UIControl+Theme.swift */; };
-		B1C000E07BF2F0C0364F38D788403001 /* UISearchBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3891E6E9D090B8494BC14FD3DCBB4 /* UISearchBar+Theme.swift */; };
-		B27C6350F9196A93539CEA8C370B9AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BA674D20C9427DA6A11D81B74DFC6CF6 /* CALayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B54AC1FC548868BCF76DD8958390CD /* CALayer+Theme.swift */; };
-		BF29E159120E15F30689A8F56B4BE86E /* XCThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7184692782C8712A535090E14154D7 /* XCThemeManager.swift */; };
-		C8FB059FF309F7545905B0C0DC77FD55 /* UIBarItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706DBE3FF84A2E211EF66D6CD1A4F39 /* UIBarItem+Theme.swift */; };
-		CAEE226A6FB4CC7D506333D239B7AF77 /* UIBarButtonItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF960F6712A59ACE7B3E40E4AC9174 /* UIBarButtonItem+Theme.swift */; };
-		CB7D3CAC8DA34EFA43FD86882ADE5E90 /* ThemeObjc+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14FA694FEA6DC26D4F89C9B457207F /* ThemeObjc+UIView.swift */; };
-		CC2D666E7EE4472171B408F1E72DC917 /* UIProgressView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AED104C525A07CB619157E06E08BB /* UIProgressView+Theme.swift */; };
-		D184A8851D24F1AF56DADD1E9EAAD9EC /* UIImageView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B282EC11DA86186C313CAAACF92A1 /* UIImageView+Theme.swift */; };
-		D39F647EE4CEB099E5EDEE20EE74B42E /* ThemeObjc+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC623FF23AF1FF619E9FD57EE31BF50 /* ThemeObjc+UISearchBar.swift */; };
-		D9807CC13EDAAC120E8F725AF5B5241D /* ThemeObjc+CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B68A793947D9FEDAF55A4D504AAD7C /* ThemeObjc+CAShapeLayer.swift */; };
-		E33D03E1263F3B2312168DC8E4FABF91 /* UISwitch+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C3F7EEC58049633C13FCC4576DEB7 /* UISwitch+Theme.swift */; };
-		E8D95DCD1E4ADBC5CC76F0797F32013E /* UISlider+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D622D947CD440DE4EF80543C0C2A77 /* UISlider+Theme.swift */; };
-		EB2CFA8AAD83EBB15EEB63A45426679B /* ThemeObjc+UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5084DD288A986D1DB22C836BA45B852 /* ThemeObjc+UISlider.swift */; };
-		EDA8E0CF745B8AFE27906800A5451583 /* UITabBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECECF9F3FE73702C84A8173BD19787E2 /* UITabBar+Theme.swift */; };
-		EE2B986635AED6511A65C89B833A38B0 /* ThemeObjc+UIToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED23C7F1F365788BD340E1082ADF3C /* ThemeObjc+UIToolBar.swift */; };
-		EECCC4120C8C2AF919AD59CE3CE7DB4A /* XCTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C94D8A0055AA8FB06549253041855EF3 /* XCTheme-dummy.m */; };
-		F7343D0AE2246903A5C3A9E7225A9BD8 /* ThemeObjc+UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC03702766367B9DA294B860B558C /* ThemeObjc+UITabBar.swift */; };
-		F908745F9CAC907FC6E8441F538864FB /* UITextField+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA75ED7DBD0AC2FE3D7D8A6D78D752F /* UITextField+Theme.swift */; };
+		0087D8CD1D5C8F1BCACE6727866178ED /* UISwitch+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B0ED56BE9F4DCDD44B97D5CD5B63C7 /* UISwitch+Theme.swift */; };
+		02B4BD2AC0235729D41F784BA3839059 /* ThemeObjc+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51213B442C397F71B3B0043F68E3527 /* ThemeObjc+CALayer.swift */; };
+		0968821FFA1E98F96CDD5713D3CB8A4A /* ThemeObjc+UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536BD6005E9BC75379AE96A89B37E94E /* ThemeObjc+UISwitch.swift */; };
+		0B519EB05122E5C8FB180DB8B1CE32F4 /* UISearchBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879B866451886DFE1E313FD78103228 /* UISearchBar+Theme.swift */; };
+		0C4FC990FDEECAE8349683BC8A1C7496 /* ThemeObjc+UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB217CCBA09209F69A3E4C80FE64BC97 /* ThemeObjc+UIPageControl.swift */; };
+		0C5E9A5A7AD0BA03DA74C0F77E4F798D /* ThemeObjc+UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE242F01903BC8F76DB8BC5343A018F /* ThemeObjc+UITabBar.swift */; };
+		14C522908E73ABE53D96E69E15D045C4 /* ThemeObjc+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93875D69BB41CD895D171BA7D003467D /* ThemeObjc+UIButton.swift */; };
+		15001BA0DA9B1838BEC225405C1A8550 /* XCTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CAFB4816B409B33EF9896E2C80225E /* XCTheme.swift */; };
+		2243860DEA65CFE2FBEB03F1FC48FD32 /* ThemeObjc+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226CFB3D866606862D0B9BAE6E6A51CB /* ThemeObjc+UILabel.swift */; };
+		235C986E6698DF2782AAC8D5DBD80755 /* ThemeObjc+UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C16A2BA69DEDE64817B4DDF671E08 /* ThemeObjc+UIProgressView.swift */; };
+		2AA40A36C2D240453E9A4BDA13E7D959 /* ThemeObjc+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629A7EC406E6A84F76795AF32BE32E98 /* ThemeObjc+UITextField.swift */; };
+		3B2D5D73E85ACDA56421D5BF151D43B7 /* XCTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A998FF9E101A9B420D406D769C32D /* XCTheme-dummy.m */; };
+		44BFFDF9469080E1F0E666B938EE18C2 /* ThemeObjc+UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BDD4A0BD08B4FAF462B042033B7186 /* ThemeObjc+UIBarItem.swift */; };
+		45642B95B5F516E3CDB50EDD9893F3DA /* ThemeObjc+UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C76D0183D9E8923C45F95DC1C02414 /* ThemeObjc+UISlider.swift */; };
+		4BA4113835188E4F0D4F921815BA41BC /* UITextView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4D5D6D27CC5CF973B3C5D0A382FF3 /* UITextView+Theme.swift */; };
+		4DD8964D9EEF2112A85021DD8977914C /* ThemeObjc+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040B3B07CA5F0705BEBF19E24A5C8AD /* ThemeObjc+UIView.swift */; };
+		4E1B0095B5A0DEE669BE3A349CFACA1B /* CAShapeLayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8A38E7AD259D549E06FB88B8F172B /* CAShapeLayer+Theme.swift */; };
+		55F3C1A0F335E007FD8EEE6EB339C50C /* ThemeObjc+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FFA39770D293CFD6E4DE31F1B0654F /* ThemeObjc+UIImageView.swift */; };
+		5B16F468E405645ABBD5E9E1F05455C2 /* ThemeObjc+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D59B485A75D6F2505D866D7BE1452 /* ThemeObjc+UITableView.swift */; };
+		5CE9C01603F534575CB45A92468924A3 /* UINavigationBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC1C049F97C873BEF60F3A7068007E /* UINavigationBar+Theme.swift */; };
+		5D8DE650952C05E625A4524F95EFBEDB /* ThemeObjc+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F5612D4B372E5208F65813ACBD374 /* ThemeObjc+UITextView.swift */; };
+		5E78D10ABA8C84CB03480F172E9E7922 /* XCThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C2C22B212FEF95695899A9A8297F6 /* XCThemeManager.swift */; };
+		6281E881803A13D33FB70656E218D017 /* Pods-XCTheme_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7892434E5FEF75A4909EEDE8DDE05D79 /* Pods-XCTheme_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6599681A785D5768910CA62919130234 /* UIBarButtonItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46F2BB860028D2469212D083D637F6 /* UIBarButtonItem+Theme.swift */; };
+		6A1F5DF09495DAACCA9AF589265731B3 /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA77C1B5C8C80A7CCC8E9E28F1CD72 /* UIButton+Theme.swift */; };
+		70183F9BF544536C39C25B2C5EF64989 /* CALayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9519CA644125AAD59A11EE24DD8A78 /* CALayer+Theme.swift */; };
+		71AC4244EE3F84A71458C8DD0E0744DC /* ThemeObjc+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4399DC76B741F899F28598C4073188 /* ThemeObjc+UIBarButtonItem.swift */; };
+		72E3C091CFDEC07A437A13087E2F52DB /* UILabel+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859DF2A51B69D86709A4D1AEF311689 /* UILabel+Theme.swift */; };
+		74E86DFC47335BF837A5704B50B3BAFE /* ThemeObjc+UIToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA58408567DBA9A55C9673BA3D989A /* ThemeObjc+UIToolBar.swift */; };
+		8161126A8EA64CD70C873820DDDCD85A /* XCThemeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EAF24EF9547AFC4CA591F7683EAEF /* XCThemeOperation.swift */; };
+		832E289B48901F3CFF044B267DE47761 /* UITextField+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB16BABB23F3586A1FB89DD2FCF189 /* UITextField+Theme.swift */; };
+		89E10AD417B3726652D8C8D57F6C406F /* UIProgressView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA486C8D4A8F616573B0B648F56FD2E /* UIProgressView+Theme.swift */; };
+		9A21C7F08CB772EF9BF14535886B5EEF /* UIToolBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C694D75C6718822316456A6A3801B /* UIToolBar+Theme.swift */; };
+		A4952FAD7C7C5B1ED697CA0DD8C90872 /* Pods-XCTheme_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D88D9C38BDE1A2976B8C1D965F0C /* Pods-XCTheme_Tests-dummy.m */; };
+		B1710F63A53DC250AA9A55A9EE99C564 /* XCTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A777BFDBE5AA3F98F6B0FEDBEFBFA61 /* XCTheme-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B51E5AF1BEDF707CBA2D3983F0005AB1 /* UIPageControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0FA721B7AED7D099203E81D344E1E /* UIPageControl+Theme.swift */; };
+		B60D0C2233F8E18028B2F7F69A301C64 /* UIView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F946CF8DD4486380087928E47D959 /* UIView+Theme.swift */; };
+		BAEDB17A0ED3ACEA5C95C14FECAF0B75 /* XCThemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD93C5F054CC13380FE26FA3F72D7C /* XCThemeTable.swift */; };
+		BE08A7D45A166CB486B85C6120118304 /* XCTheme_objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC0E0934BE5076401EB9EAC40C9E36 /* XCTheme_objc.swift */; };
+		BF9DF32CBAE1F675A2420ED894E458C4 /* ThemeObjc+CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC32AEA9F05B085EC7F1FB05CCB4E39 /* ThemeObjc+CAShapeLayer.swift */; };
+		C50F3BAC5929C9B578D388ADE60112ED /* UIControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14D114673286A07917B6B68C4CE90C /* UIControl+Theme.swift */; };
+		C738A4080F6336EE3B2C8BA5310F1956 /* UIImageView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECBAE4331CB35048F9820069329BBB9 /* UIImageView+Theme.swift */; };
+		CC2512C7247E8155B431748958D71EE6 /* ThemeObjc+UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C081BD21E093FF97BB5A427BD8059C7 /* ThemeObjc+UINavigationBar.swift */; };
+		D3A67DD930EDED10995990D6C95FDF56 /* ThemeObjc+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF18C3F98C8CED7DEB92AD02CAECE4 /* ThemeObjc+UISearchBar.swift */; };
+		D96F9CE0BC17AE5B1BD7A126E0443ECC /* UITabBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E0A3629EAC1D216552778C0A99F72 /* UITabBar+Theme.swift */; };
+		E3FDEAC432E8AD66481EF5A193A1B8CE /* UISlider+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471114DB28E55F88B7BA491B6127F73 /* UISlider+Theme.swift */; };
+		E4247655007E8B0D82DD9C8813C29754 /* Pods-XCTheme_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79FF215A813CBAFBD545C7FACD3FF5 /* Pods-XCTheme_Example-dummy.m */; };
+		EEACAAA39D694ECFBE896C4D5F905B9F /* UITableView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4B380E27F9E0045D819F7B4FD47B3 /* UITableView+Theme.swift */; };
+		FBD64120C97B02295C60066F0709D8D4 /* UIBarItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9481850DCE48AD15CE58483D8329898 /* UIBarItem+Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CED9CEEA137E730DB45808A3F8DB7AF /* PBXContainerItemProxy */ = {
+		6A4BF1F80A9E0B57421EFCE61B6EBD2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86FC0F806BE641E7F140ADEBDB435FEE;
 			remoteInfo = "Pods-XCTheme_Example";
 		};
-		ACF4C70766FE33DAC9C8B84BF767DE0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEF27AEC3EE4CFF110EB55DA108E43C2;
-			remoteInfo = "XCTheme-XCTheme";
-		};
-		ED547C87F32590E560F0F3648ADB4D92 /* PBXContainerItemProxy */ = {
+		721FE43BBFEE67FD138234AAB8B59E59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -88,262 +76,170 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0545E097AD0BCB93BAA5DFE299C5CD8B /* ThemeObjc+UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UILabel.swift"; sourceTree = "<group>"; };
-		072A46CD09720284367AA1897BE26908 /* Pods-XCTheme_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCTheme_Example.modulemap"; sourceTree = "<group>"; };
-		10E11A11CA22162FAD5172EC614C7FD8 /* UINavigationBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Theme.swift"; sourceTree = "<group>"; };
-		15FDCC8BC569F780364A5CD933A2A73C /* Pods-XCTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		172307800CE5B2C8766023F0F2843ED7 /* Pods-XCTheme_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTheme_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		18ECCC1F8AABDF0A66F070E17691B8BE /* UILabel+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Theme.swift"; sourceTree = "<group>"; };
-		19B54AC1FC548868BCF76DD8958390CD /* CALayer+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Theme.swift"; sourceTree = "<group>"; };
-		1DF3514D4F785732B4A02142EC3BD848 /* ThemeObjc+UIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIBarItem.swift"; sourceTree = "<group>"; };
-		21B6D2F280F5DAAD66AEEFE8E5B35E1E /* XCThemeTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCThemeTable.swift; sourceTree = "<group>"; };
-		265EB7DE0FAA93FA1E6E0606AD4E2F97 /* ThemeObjc+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITableView.swift"; sourceTree = "<group>"; };
-		277BC03702766367B9DA294B860B558C /* ThemeObjc+UITabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITabBar.swift"; sourceTree = "<group>"; };
-		2A1CC14C039AA2643900195848A7BF5F /* Pods-XCTheme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DC3891E6E9D090B8494BC14FD3DCBB4 /* UISearchBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Theme.swift"; sourceTree = "<group>"; };
-		32ED23C7F1F365788BD340E1082ADF3C /* ThemeObjc+UIToolBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIToolBar.swift"; sourceTree = "<group>"; };
-		383CB5296A2286FBEFE2DE0F16B9FC6B /* Pods-XCTheme_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XCTheme_Tests"; path = Pods_XCTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3946FD01D4F1DBC6B5D36BAE9A65A9D3 /* ThemeObjc+UINavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UINavigationBar.swift"; sourceTree = "<group>"; };
-		3A9032022E564DF7E187EF50B62F6FA7 /* UIPageControl+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Theme.swift"; sourceTree = "<group>"; };
-		3B14FA694FEA6DC26D4F89C9B457207F /* ThemeObjc+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIView.swift"; sourceTree = "<group>"; };
-		427FD3B2C3561E033EE3F8C017233A59 /* ResourceBundle-XCTheme-XCTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XCTheme-XCTheme-Info.plist"; sourceTree = "<group>"; };
-		43CDF0EFDE9C1B38949A0C6183BF13B1 /* ThemeObjc+UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITextField.swift"; sourceTree = "<group>"; };
-		4F6B282EC11DA86186C313CAAACF92A1 /* UIImageView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Theme.swift"; sourceTree = "<group>"; };
-		559EB3BCD399295465E5359D85E4B3B6 /* XCTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCTheme.debug.xcconfig; sourceTree = "<group>"; };
-		55E3B5B8D47E56F88D33200942F7845C /* XCTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCTheme.release.xcconfig; sourceTree = "<group>"; };
-		5776171303FD340E24D753E8C4D6460B /* CAShapeLayer+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Theme.swift"; sourceTree = "<group>"; };
-		58D1613F821E29B02D28BAC1967F6D5C /* ThemeObjc+UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIButton.swift"; sourceTree = "<group>"; };
-		58D622D947CD440DE4EF80543C0C2A77 /* UISlider+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISlider+Theme.swift"; sourceTree = "<group>"; };
-		5A8AED104C525A07CB619157E06E08BB /* UIProgressView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Theme.swift"; sourceTree = "<group>"; };
-		5F70EF381EE810D022115B28C4D2EF07 /* ThemeObjc+UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIImageView.swift"; sourceTree = "<group>"; };
-		604693FCC49E1B79294D31068434AEC9 /* XCTheme_objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCTheme_objc.swift; sourceTree = "<group>"; };
-		62206E639D26C3BC1861445AC4F26C39 /* ThemeObjc+UIProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIProgressView.swift"; sourceTree = "<group>"; };
-		6F5178E209456CF224440F58A2A1DB48 /* Pods-XCTheme_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCTheme_Tests.modulemap"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		790984E2D6CEBBA61A95BD4B29F1D999 /* XCTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCTheme.modulemap; sourceTree = "<group>"; };
-		792789C35B719B4AD86A1553685DA1CA /* XCTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XCTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7BF91CBEB8491C702F65ECE6100762B1 /* UIControl+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Theme.swift"; sourceTree = "<group>"; };
-		7D7184692782C8712A535090E14154D7 /* XCThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCThemeManager.swift; path = XCTheme/Classes/XCThemeManager.swift; sourceTree = "<group>"; };
-		802971938F779D3BC9D0D352FCDC3616 /* Pods-XCTheme_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTheme_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		80B68A793947D9FEDAF55A4D504AAD7C /* ThemeObjc+CAShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+CAShapeLayer.swift"; sourceTree = "<group>"; };
-		885D4E096AD15BEF24C349FD882887C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		92404AB666B1E11CF1068C6A846DF1FF /* Pods-XCTheme_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCTheme_Example-umbrella.h"; sourceTree = "<group>"; };
-		96C752CDF81E3493DA0A4AB4D40829D8 /* Pods-XCTheme_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCTheme_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA2671AF4C8E6B889945F0030708BF5 /* ThemeObjc+UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIBarButtonItem.swift"; sourceTree = "<group>"; };
-		9FC623FF23AF1FF619E9FD57EE31BF50 /* ThemeObjc+UISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UISearchBar.swift"; sourceTree = "<group>"; };
-		A5BB64A49B5D70CDBE05D27FB8E721D2 /* Pods-XCTheme_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTheme_Example-Info.plist"; sourceTree = "<group>"; };
-		A78B7D20F214DE638306A41188BCB390 /* Pods-XCTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF02278D442CB5EB021C042B188DA394 /* XCThemeOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCThemeOperation.swift; sourceTree = "<group>"; };
-		B0E8923D4E970BD2A8E6538C68EEC047 /* UIToolBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIToolBar+Theme.swift"; sourceTree = "<group>"; };
-		B409DE8DA4488B81924EA654F414A27B /* ThemeObjc+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+CALayer.swift"; sourceTree = "<group>"; };
-		B63F7002F6E0E8C4D0696275F166E426 /* Pods-XCTheme_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTheme_Tests-Info.plist"; sourceTree = "<group>"; };
-		BA37631C3371EDE244F272E3B3482B50 /* Pods-XCTheme_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCTheme_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BFA331F71692952FDB9EC6D51ECFB906 /* XCTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCTheme.swift; sourceTree = "<group>"; };
-		C05DDFF96F75F29C681DD500FF66EA60 /* UIButton+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
-		C14C35084C3A75D220FE5CA7C1CD07BA /* Pods-XCTheme_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCTheme_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C20C3F7EEC58049633C13FCC4576DEB7 /* UISwitch+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+Theme.swift"; sourceTree = "<group>"; };
-		C5F2C35F3B0DEB8E91DAE869C62750D9 /* UIView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Theme.swift"; sourceTree = "<group>"; };
-		C6480177DDE9CD84DC21D4A3DA9F6EB7 /* XCTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75242814278E46A2BE3326BD8A78C31 /* Pods-XCTheme_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XCTheme_Example"; path = Pods_XCTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C94D8A0055AA8FB06549253041855EF3 /* XCTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTheme-dummy.m"; sourceTree = "<group>"; };
-		CD0A13E11560D8C09EAEA9D0A676880E /* Pods-XCTheme_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCTheme_Tests-dummy.m"; sourceTree = "<group>"; };
-		D706DBE3FF84A2E211EF66D6CD1A4F39 /* UIBarItem+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarItem+Theme.swift"; sourceTree = "<group>"; };
-		DAFDA3982B488D19D5809D6F741B9298 /* Pods-XCTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBBE1FD86F77034D1E4C87216FFC6B72 /* Pods-XCTheme_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCTheme_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD1984F20A227FC9A488EF22CBE0FF81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E01F24199AB4A0A272E0AB75F5913170 /* UITextView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Theme.swift"; sourceTree = "<group>"; };
-		E2BC0450793FB65B58DDAAD38D40AD58 /* ThemeObjc+UIPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIPageControl.swift"; sourceTree = "<group>"; };
-		E426C364DAA5303006FF2AC2FDC3D976 /* UITableView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Theme.swift"; sourceTree = "<group>"; };
-		E46E4E9B90A0F3C0E589C5416A984442 /* Pods-XCTheme_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCTheme_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ECECF9F3FE73702C84A8173BD19787E2 /* UITabBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Theme.swift"; sourceTree = "<group>"; };
-		EFB9104835A49508488CA85C48B78C70 /* XCTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTheme-umbrella.h"; sourceTree = "<group>"; };
-		F5084DD288A986D1DB22C836BA45B852 /* ThemeObjc+UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UISlider.swift"; sourceTree = "<group>"; };
-		F8BE3111CA87D5D136DF68F799966520 /* ThemeObjc+UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UISwitch.swift"; sourceTree = "<group>"; };
-		F9BFECEB3219093F29A26F61A63A1748 /* ThemeObjc+UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITextView.swift"; sourceTree = "<group>"; };
-		F9FD57F4A1D6B0C8454D8598C8B7D2D5 /* XCTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XCTheme-Info.plist"; sourceTree = "<group>"; };
-		FAA75ED7DBD0AC2FE3D7D8A6D78D752F /* UITextField+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Theme.swift"; sourceTree = "<group>"; };
-		FE623931102E8FB85CDA780F45A8E3E7 /* XCTheme-XCTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "XCTheme-XCTheme"; path = XCTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF853E9A345D342683B8E41C3D9FC14F /* XCTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTheme-prefix.pch"; sourceTree = "<group>"; };
-		FFFF960F6712A59ACE7B3E40E4AC9174 /* UIBarButtonItem+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Theme.swift"; sourceTree = "<group>"; };
+		00DB16BABB23F3586A1FB89DD2FCF189 /* UITextField+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Theme.swift"; sourceTree = "<group>"; };
+		054B10800919D2B8AEB8B1EB6E9043AA /* XCTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XCTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0879B866451886DFE1E313FD78103228 /* UISearchBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Theme.swift"; sourceTree = "<group>"; };
+		0CFC0E0934BE5076401EB9EAC40C9E36 /* XCTheme_objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCTheme_objc.swift; sourceTree = "<group>"; };
+		11C8A38E7AD259D549E06FB88B8F172B /* CAShapeLayer+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Theme.swift"; sourceTree = "<group>"; };
+		155E2E0A1ED1FAE4FAB60E67666C5997 /* Pods-XCTheme_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTheme_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		226CFB3D866606862D0B9BAE6E6A51CB /* ThemeObjc+UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UILabel.swift"; sourceTree = "<group>"; };
+		230D24EDCFC91C58A308AA84C0315617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A777BFDBE5AA3F98F6B0FEDBEFBFA61 /* XCTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTheme-umbrella.h"; sourceTree = "<group>"; };
+		30E3855CD40C8D3F970A4539BBDCB783 /* XCTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCTheme.release.xcconfig; sourceTree = "<group>"; };
+		3471114DB28E55F88B7BA491B6127F73 /* UISlider+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISlider+Theme.swift"; sourceTree = "<group>"; };
+		383CB5296A2286FBEFE2DE0F16B9FC6B /* Pods-XCTheme_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XCTheme_Tests"; path = "libPods-XCTheme_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0C2C22B212FEF95695899A9A8297F6 /* XCThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCThemeManager.swift; path = XCTheme/Classes/XCThemeManager.swift; sourceTree = "<group>"; };
+		3D6EAF24EF9547AFC4CA591F7683EAEF /* XCThemeOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCThemeOperation.swift; sourceTree = "<group>"; };
+		3FE242F01903BC8F76DB8BC5343A018F /* ThemeObjc+UITabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITabBar.swift"; sourceTree = "<group>"; };
+		4040B3B07CA5F0705BEBF19E24A5C8AD /* ThemeObjc+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIView.swift"; sourceTree = "<group>"; };
+		536BD6005E9BC75379AE96A89B37E94E /* ThemeObjc+UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UISwitch.swift"; sourceTree = "<group>"; };
+		59BDD4A0BD08B4FAF462B042033B7186 /* ThemeObjc+UIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIBarItem.swift"; sourceTree = "<group>"; };
+		5C081BD21E093FF97BB5A427BD8059C7 /* ThemeObjc+UINavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UINavigationBar.swift"; sourceTree = "<group>"; };
+		5C46F2BB860028D2469212D083D637F6 /* UIBarButtonItem+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Theme.swift"; sourceTree = "<group>"; };
+		629A7EC406E6A84F76795AF32BE32E98 /* ThemeObjc+UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITextField.swift"; sourceTree = "<group>"; };
+		6916104EF86A56D49C2A63892042F469 /* Pods-XCTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69C76D0183D9E8923C45F95DC1C02414 /* ThemeObjc+UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UISlider.swift"; sourceTree = "<group>"; };
+		69FFA39770D293CFD6E4DE31F1B0654F /* ThemeObjc+UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIImageView.swift"; sourceTree = "<group>"; };
+		6DEA77C1B5C8C80A7CCC8E9E28F1CD72 /* UIButton+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
+		6EA54440DB4A33248F18399C1D0A5256 /* Pods-XCTheme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6F81E62D3CF40C6EA0AFA2D3D10492A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7892434E5FEF75A4909EEDE8DDE05D79 /* Pods-XCTheme_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCTheme_Example-umbrella.h"; sourceTree = "<group>"; };
+		7A7C694D75C6718822316456A6A3801B /* UIToolBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIToolBar+Theme.swift"; sourceTree = "<group>"; };
+		7B4F946CF8DD4486380087928E47D959 /* UIView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Theme.swift"; sourceTree = "<group>"; };
+		7C0D59B485A75D6F2505D866D7BE1452 /* ThemeObjc+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITableView.swift"; sourceTree = "<group>"; };
+		7CC4B380E27F9E0045D819F7B4FD47B3 /* UITableView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Theme.swift"; sourceTree = "<group>"; };
+		7E2E0A3629EAC1D216552778C0A99F72 /* UITabBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Theme.swift"; sourceTree = "<group>"; };
+		82B0ED56BE9F4DCDD44B97D5CD5B63C7 /* UISwitch+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISwitch+Theme.swift"; sourceTree = "<group>"; };
+		88DD93C5F054CC13380FE26FA3F72D7C /* XCThemeTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCThemeTable.swift; sourceTree = "<group>"; };
+		8A013EB836747B79DD06EDFA26FE1AD9 /* XCTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCTheme.debug.xcconfig; sourceTree = "<group>"; };
+		8CC32AEA9F05B085EC7F1FB05CCB4E39 /* ThemeObjc+CAShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+CAShapeLayer.swift"; sourceTree = "<group>"; };
+		8F4399DC76B741F899F28598C4073188 /* ThemeObjc+UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		91DA58408567DBA9A55C9673BA3D989A /* ThemeObjc+UIToolBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIToolBar.swift"; sourceTree = "<group>"; };
+		93875D69BB41CD895D171BA7D003467D /* ThemeObjc+UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIButton.swift"; sourceTree = "<group>"; };
+		94C3E01EBD37BEB342579F4BED84D038 /* Pods-XCTheme_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCTheme_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96CAFB4816B409B33EF9896E2C80225E /* XCTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XCTheme.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00F5612D4B372E5208F65813ACBD374 /* ThemeObjc+UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UITextView.swift"; sourceTree = "<group>"; };
+		AAA9D88D9C38BDE1A2976B8C1D965F0C /* Pods-XCTheme_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCTheme_Tests-dummy.m"; sourceTree = "<group>"; };
+		B193514BC70C3CA78D14AE76A9406DDC /* Pods-XCTheme_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTheme_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1A2904EBA83C04CDB8964FECC4815AC /* Pods-XCTheme_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCTheme_Example.modulemap"; sourceTree = "<group>"; };
+		B87C16A2BA69DEDE64817B4DDF671E08 /* ThemeObjc+UIProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIProgressView.swift"; sourceTree = "<group>"; };
+		B9EFCC3E777A6F740233784BA5E086CC /* Pods-XCTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA5A998FF9E101A9B420D406D769C32D /* XCTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTheme-dummy.m"; sourceTree = "<group>"; };
+		BE6C539C0FE8E441B8D908DE7DD66BE9 /* Pods-XCTheme_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCTheme_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C51213B442C397F71B3B0043F68E3527 /* ThemeObjc+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+CALayer.swift"; sourceTree = "<group>"; };
+		C6480177DDE9CD84DC21D4A3DA9F6EB7 /* XCTheme */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = XCTheme; path = libXCTheme.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75242814278E46A2BE3326BD8A78C31 /* Pods-XCTheme_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XCTheme_Example"; path = "libPods-XCTheme_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B0FA721B7AED7D099203E81D344E1E /* UIPageControl+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Theme.swift"; sourceTree = "<group>"; };
+		CA79FF215A813CBAFBD545C7FACD3FF5 /* Pods-XCTheme_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCTheme_Example-dummy.m"; sourceTree = "<group>"; };
+		CCFF18C3F98C8CED7DEB92AD02CAECE4 /* ThemeObjc+UISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UISearchBar.swift"; sourceTree = "<group>"; };
+		D5FC1C049F97C873BEF60F3A7068007E /* UINavigationBar+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Theme.swift"; sourceTree = "<group>"; };
+		DA4A085CF9CD420456235A29A3577837 /* XCTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCTheme.modulemap; sourceTree = "<group>"; };
+		DBA486C8D4A8F616573B0B648F56FD2E /* UIProgressView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Theme.swift"; sourceTree = "<group>"; };
+		DF14D114673286A07917B6B68C4CE90C /* UIControl+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Theme.swift"; sourceTree = "<group>"; };
+		EB217CCBA09209F69A3E4C80FE64BC97 /* ThemeObjc+UIPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ThemeObjc+UIPageControl.swift"; sourceTree = "<group>"; };
+		EBB4D5D6D27CC5CF973B3C5D0A382FF3 /* UITextView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Theme.swift"; sourceTree = "<group>"; };
+		EC9519CA644125AAD59A11EE24DD8A78 /* CALayer+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Theme.swift"; sourceTree = "<group>"; };
+		EECBAE4331CB35048F9820069329BBB9 /* UIImageView+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Theme.swift"; sourceTree = "<group>"; };
+		F27A4AC152A8539CE209BFF22BD8F61A /* XCTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTheme-prefix.pch"; sourceTree = "<group>"; };
+		F859DF2A51B69D86709A4D1AEF311689 /* UILabel+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Theme.swift"; sourceTree = "<group>"; };
+		F9481850DCE48AD15CE58483D8329898 /* UIBarItem+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarItem+Theme.swift"; sourceTree = "<group>"; };
+		FEC517A0F4B02B5562461964187A20D0 /* Pods-XCTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FF596A27EB39F4BF350B61DBE758F2F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				112330F511677F1095D5CA7CCDD86E54 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CEB45AFD2771FC126A1C03E3C7856A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B34F5695AC8380745C0619D8EF26877 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBB47A62C9C92A994ADFD4F1A3829355 /* Frameworks */ = {
+		02794A9BA6987E56F292EE3693961F80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EECEE02D1438B024762A3614F6180D27 /* Frameworks */ = {
+		AE172BA0F0BC3DD86B67F27A52A5D27C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27C6350F9196A93539CEA8C370B9AA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7D98604D2D9CB171B463F697007E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E3334D9A93980FEE9E31FD0FE77527 /* UIKit */ = {
+		0446A30919D0F7C8882EA51755DAB2DD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFFF960F6712A59ACE7B3E40E4AC9174 /* UIBarButtonItem+Theme.swift */,
-				D706DBE3FF84A2E211EF66D6CD1A4F39 /* UIBarItem+Theme.swift */,
-				C05DDFF96F75F29C681DD500FF66EA60 /* UIButton+Theme.swift */,
-				7BF91CBEB8491C702F65ECE6100762B1 /* UIControl+Theme.swift */,
-				4F6B282EC11DA86186C313CAAACF92A1 /* UIImageView+Theme.swift */,
-				18ECCC1F8AABDF0A66F070E17691B8BE /* UILabel+Theme.swift */,
-				10E11A11CA22162FAD5172EC614C7FD8 /* UINavigationBar+Theme.swift */,
-				3A9032022E564DF7E187EF50B62F6FA7 /* UIPageControl+Theme.swift */,
-				5A8AED104C525A07CB619157E06E08BB /* UIProgressView+Theme.swift */,
-				2DC3891E6E9D090B8494BC14FD3DCBB4 /* UISearchBar+Theme.swift */,
-				58D622D947CD440DE4EF80543C0C2A77 /* UISlider+Theme.swift */,
-				C20C3F7EEC58049633C13FCC4576DEB7 /* UISwitch+Theme.swift */,
-				ECECF9F3FE73702C84A8173BD19787E2 /* UITabBar+Theme.swift */,
-				E426C364DAA5303006FF2AC2FDC3D976 /* UITableView+Theme.swift */,
-				FAA75ED7DBD0AC2FE3D7D8A6D78D752F /* UITextField+Theme.swift */,
-				E01F24199AB4A0A272E0AB75F5913170 /* UITextView+Theme.swift */,
-				B0E8923D4E970BD2A8E6538C68EEC047 /* UIToolBar+Theme.swift */,
-				C5F2C35F3B0DEB8E91DAE869C62750D9 /* UIView+Theme.swift */,
-			);
-			name = UIKit;
-			path = XCTheme/Classes/UIKit;
-			sourceTree = "<group>";
-		};
-		122392E43AB31671F3739628E5F886BA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DD1984F20A227FC9A488EF22CBE0FF81 /* LICENSE */,
-				885D4E096AD15BEF24C349FD882887C4 /* README.md */,
-				792789C35B719B4AD86A1553685DA1CA /* XCTheme.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2452B798D550CBBBCEA44EB162ECFB5F /* CoreAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				19B54AC1FC548868BCF76DD8958390CD /* CALayer+Theme.swift */,
-				5776171303FD340E24D753E8C4D6460B /* CAShapeLayer+Theme.swift */,
-			);
-			name = CoreAnimation;
-			path = XCTheme/Classes/CoreAnimation;
-			sourceTree = "<group>";
-		};
-		3775B85C5AE476E7AD72526674340A70 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				BFA331F71692952FDB9EC6D51ECFB906 /* XCTheme.swift */,
-				AF02278D442CB5EB021C042B188DA394 /* XCThemeOperation.swift */,
-				21B6D2F280F5DAAD66AEEFE8E5B35E1E /* XCThemeTable.swift */,
-			);
-			name = Core;
-			path = XCTheme/Classes/Core;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		59BF1B7B2EFE99864067DC43CA1165E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				427FD3B2C3561E033EE3F8C017233A59 /* ResourceBundle-XCTheme-XCTheme-Info.plist */,
-				790984E2D6CEBBA61A95BD4B29F1D999 /* XCTheme.modulemap */,
-				C94D8A0055AA8FB06549253041855EF3 /* XCTheme-dummy.m */,
-				F9FD57F4A1D6B0C8454D8598C8B7D2D5 /* XCTheme-Info.plist */,
-				FF853E9A345D342683B8E41C3D9FC14F /* XCTheme-prefix.pch */,
-				EFB9104835A49508488CA85C48B78C70 /* XCTheme-umbrella.h */,
-				559EB3BCD399295465E5359D85E4B3B6 /* XCTheme.debug.xcconfig */,
-				55E3B5B8D47E56F88D33200942F7845C /* XCTheme.release.xcconfig */,
+				DA4A085CF9CD420456235A29A3577837 /* XCTheme.modulemap */,
+				BA5A998FF9E101A9B420D406D769C32D /* XCTheme-dummy.m */,
+				F27A4AC152A8539CE209BFF22BD8F61A /* XCTheme-prefix.pch */,
+				2A777BFDBE5AA3F98F6B0FEDBEFBFA61 /* XCTheme-umbrella.h */,
+				8A013EB836747B79DD06EDFA26FE1AD9 /* XCTheme.debug.xcconfig */,
+				30E3855CD40C8D3F970A4539BBDCB783 /* XCTheme.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XCTheme";
 			sourceTree = "<group>";
 		};
-		62B0BC241E9280CBFD2828914E8D9081 /* XCTheme */ = {
+		1C38C07C116D2433E3293EC1DA13F9AE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				7D7184692782C8712A535090E14154D7 /* XCThemeManager.swift */,
-				3775B85C5AE476E7AD72526674340A70 /* Core */,
-				2452B798D550CBBBCEA44EB162ECFB5F /* CoreAnimation */,
-				122392E43AB31671F3739628E5F886BA /* Pod */,
-				59BF1B7B2EFE99864067DC43CA1165E3 /* Support Files */,
-				F61746CA2DA3075C1912C0DEE30FDDA5 /* Theme_objc */,
-				02E3334D9A93980FEE9E31FD0FE77527 /* UIKit */,
+				EC9519CA644125AAD59A11EE24DD8A78 /* CALayer+Theme.swift */,
+				11C8A38E7AD259D549E06FB88B8F172B /* CAShapeLayer+Theme.swift */,
+			);
+			name = CoreAnimation;
+			path = XCTheme/Classes/CoreAnimation;
+			sourceTree = "<group>";
+		};
+		2E3451F919E2A48005CA5435DF4CDBA7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E5117F84AA915C85FAF2697F55EE8AE /* XCTheme */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		32120AE06CC87E9EAD46AE8B99BFA433 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				96CAFB4816B409B33EF9896E2C80225E /* XCTheme.swift */,
+				3D6EAF24EF9547AFC4CA591F7683EAEF /* XCThemeOperation.swift */,
+				88DD93C5F054CC13380FE26FA3F72D7C /* XCThemeTable.swift */,
+			);
+			name = Core;
+			path = XCTheme/Classes/Core;
+			sourceTree = "<group>";
+		};
+		6E5117F84AA915C85FAF2697F55EE8AE /* XCTheme */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C2C22B212FEF95695899A9A8297F6 /* XCThemeManager.swift */,
+				32120AE06CC87E9EAD46AE8B99BFA433 /* Core */,
+				1C38C07C116D2433E3293EC1DA13F9AE /* CoreAnimation */,
+				D0B558878E7EDCC5BB33A0FECB6D3747 /* Pod */,
+				0446A30919D0F7C8882EA51755DAB2DD /* Support Files */,
+				EAD2CCFB16B995DA03ADB1B3BDB52C1E /* Theme_objc */,
+				FF017EC9EBB61DE269AFF23642F45038 /* UIKit */,
 			);
 			name = XCTheme;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		64999A104530597D30F79526E61EE558 /* Development Pods */ = {
+		CE650129F7D33F014AF7E25B20143F59 /* Pods-XCTheme_Example */ = {
 			isa = PBXGroup;
 			children = (
-				62B0BC241E9280CBFD2828914E8D9081 /* XCTheme */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		822B8AC505764CEEE838C723D8E17825 /* Pods-XCTheme_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6F5178E209456CF224440F58A2A1DB48 /* Pods-XCTheme_Tests.modulemap */,
-				C14C35084C3A75D220FE5CA7C1CD07BA /* Pods-XCTheme_Tests-acknowledgements.markdown */,
-				172307800CE5B2C8766023F0F2843ED7 /* Pods-XCTheme_Tests-acknowledgements.plist */,
-				CD0A13E11560D8C09EAEA9D0A676880E /* Pods-XCTheme_Tests-dummy.m */,
-				B63F7002F6E0E8C4D0696275F166E426 /* Pods-XCTheme_Tests-Info.plist */,
-				E46E4E9B90A0F3C0E589C5416A984442 /* Pods-XCTheme_Tests-umbrella.h */,
-				DAFDA3982B488D19D5809D6F741B9298 /* Pods-XCTheme_Tests.debug.xcconfig */,
-				A78B7D20F214DE638306A41188BCB390 /* Pods-XCTheme_Tests.release.xcconfig */,
-			);
-			name = "Pods-XCTheme_Tests";
-			path = "Target Support Files/Pods-XCTheme_Tests";
-			sourceTree = "<group>";
-		};
-		83B640A8BC1AAE08EB2C73BBBE714CD3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9FE2B74C1403BC26AEA8D35CFE74C96 /* Pods-XCTheme_Example */,
-				822B8AC505764CEEE838C723D8E17825 /* Pods-XCTheme_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B9FE2B74C1403BC26AEA8D35CFE74C96 /* Pods-XCTheme_Example */ = {
-			isa = PBXGroup;
-			children = (
-				072A46CD09720284367AA1897BE26908 /* Pods-XCTheme_Example.modulemap */,
-				DBBE1FD86F77034D1E4C87216FFC6B72 /* Pods-XCTheme_Example-acknowledgements.markdown */,
-				802971938F779D3BC9D0D352FCDC3616 /* Pods-XCTheme_Example-acknowledgements.plist */,
-				96C752CDF81E3493DA0A4AB4D40829D8 /* Pods-XCTheme_Example-dummy.m */,
-				BA37631C3371EDE244F272E3B3482B50 /* Pods-XCTheme_Example-frameworks.sh */,
-				A5BB64A49B5D70CDBE05D27FB8E721D2 /* Pods-XCTheme_Example-Info.plist */,
-				92404AB666B1E11CF1068C6A846DF1FF /* Pods-XCTheme_Example-umbrella.h */,
-				15FDCC8BC569F780364A5CD933A2A73C /* Pods-XCTheme_Example.debug.xcconfig */,
-				2A1CC14C039AA2643900195848A7BF5F /* Pods-XCTheme_Example.release.xcconfig */,
+				B1A2904EBA83C04CDB8964FECC4815AC /* Pods-XCTheme_Example.modulemap */,
+				94C3E01EBD37BEB342579F4BED84D038 /* Pods-XCTheme_Example-acknowledgements.markdown */,
+				B193514BC70C3CA78D14AE76A9406DDC /* Pods-XCTheme_Example-acknowledgements.plist */,
+				CA79FF215A813CBAFBD545C7FACD3FF5 /* Pods-XCTheme_Example-dummy.m */,
+				7892434E5FEF75A4909EEDE8DDE05D79 /* Pods-XCTheme_Example-umbrella.h */,
+				6916104EF86A56D49C2A63892042F469 /* Pods-XCTheme_Example.debug.xcconfig */,
+				6EA54440DB4A33248F18399C1D0A5256 /* Pods-XCTheme_Example.release.xcconfig */,
 			);
 			name = "Pods-XCTheme_Example";
 			path = "Target Support Files/Pods-XCTheme_Example";
@@ -353,84 +249,139 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				64999A104530597D30F79526E61EE558 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F18433C18BC065782A1EB8DB0A0782AB /* Products */,
-				83B640A8BC1AAE08EB2C73BBBE714CD3 /* Targets Support Files */,
+				2E3451F919E2A48005CA5435DF4CDBA7 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E63533AA8D496CC7DD73FF8C52B93260 /* Products */,
+				DE74645CB8AC851DF6B52D36DF1AADEF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D0B558878E7EDCC5BB33A0FECB6D3747 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				230D24EDCFC91C58A308AA84C0315617 /* LICENSE */,
+				6F81E62D3CF40C6EA0AFA2D3D10492A2 /* README.md */,
+				054B10800919D2B8AEB8B1EB6E9043AA /* XCTheme.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F18433C18BC065782A1EB8DB0A0782AB /* Products */ = {
+		DE74645CB8AC851DF6B52D36DF1AADEF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE650129F7D33F014AF7E25B20143F59 /* Pods-XCTheme_Example */,
+				E732F5A88A54C21B0A50013FFE1E75DA /* Pods-XCTheme_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E63533AA8D496CC7DD73FF8C52B93260 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				C75242814278E46A2BE3326BD8A78C31 /* Pods-XCTheme_Example */,
 				383CB5296A2286FBEFE2DE0F16B9FC6B /* Pods-XCTheme_Tests */,
-				C6480177DDE9CD84DC21D4A3DA9F6EB7 /* XCTheme.framework */,
-				FE623931102E8FB85CDA780F45A8E3E7 /* XCTheme-XCTheme */,
+				C6480177DDE9CD84DC21D4A3DA9F6EB7 /* XCTheme */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F61746CA2DA3075C1912C0DEE30FDDA5 /* Theme_objc */ = {
+		E732F5A88A54C21B0A50013FFE1E75DA /* Pods-XCTheme_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B409DE8DA4488B81924EA654F414A27B /* ThemeObjc+CALayer.swift */,
-				80B68A793947D9FEDAF55A4D504AAD7C /* ThemeObjc+CAShapeLayer.swift */,
-				9DA2671AF4C8E6B889945F0030708BF5 /* ThemeObjc+UIBarButtonItem.swift */,
-				1DF3514D4F785732B4A02142EC3BD848 /* ThemeObjc+UIBarItem.swift */,
-				58D1613F821E29B02D28BAC1967F6D5C /* ThemeObjc+UIButton.swift */,
-				5F70EF381EE810D022115B28C4D2EF07 /* ThemeObjc+UIImageView.swift */,
-				0545E097AD0BCB93BAA5DFE299C5CD8B /* ThemeObjc+UILabel.swift */,
-				3946FD01D4F1DBC6B5D36BAE9A65A9D3 /* ThemeObjc+UINavigationBar.swift */,
-				E2BC0450793FB65B58DDAAD38D40AD58 /* ThemeObjc+UIPageControl.swift */,
-				62206E639D26C3BC1861445AC4F26C39 /* ThemeObjc+UIProgressView.swift */,
-				9FC623FF23AF1FF619E9FD57EE31BF50 /* ThemeObjc+UISearchBar.swift */,
-				F5084DD288A986D1DB22C836BA45B852 /* ThemeObjc+UISlider.swift */,
-				F8BE3111CA87D5D136DF68F799966520 /* ThemeObjc+UISwitch.swift */,
-				277BC03702766367B9DA294B860B558C /* ThemeObjc+UITabBar.swift */,
-				265EB7DE0FAA93FA1E6E0606AD4E2F97 /* ThemeObjc+UITableView.swift */,
-				43CDF0EFDE9C1B38949A0C6183BF13B1 /* ThemeObjc+UITextField.swift */,
-				F9BFECEB3219093F29A26F61A63A1748 /* ThemeObjc+UITextView.swift */,
-				32ED23C7F1F365788BD340E1082ADF3C /* ThemeObjc+UIToolBar.swift */,
-				3B14FA694FEA6DC26D4F89C9B457207F /* ThemeObjc+UIView.swift */,
-				604693FCC49E1B79294D31068434AEC9 /* XCTheme_objc.swift */,
+				BE6C539C0FE8E441B8D908DE7DD66BE9 /* Pods-XCTheme_Tests-acknowledgements.markdown */,
+				155E2E0A1ED1FAE4FAB60E67666C5997 /* Pods-XCTheme_Tests-acknowledgements.plist */,
+				AAA9D88D9C38BDE1A2976B8C1D965F0C /* Pods-XCTheme_Tests-dummy.m */,
+				FEC517A0F4B02B5562461964187A20D0 /* Pods-XCTheme_Tests.debug.xcconfig */,
+				B9EFCC3E777A6F740233784BA5E086CC /* Pods-XCTheme_Tests.release.xcconfig */,
+			);
+			name = "Pods-XCTheme_Tests";
+			path = "Target Support Files/Pods-XCTheme_Tests";
+			sourceTree = "<group>";
+		};
+		EAD2CCFB16B995DA03ADB1B3BDB52C1E /* Theme_objc */ = {
+			isa = PBXGroup;
+			children = (
+				C51213B442C397F71B3B0043F68E3527 /* ThemeObjc+CALayer.swift */,
+				8CC32AEA9F05B085EC7F1FB05CCB4E39 /* ThemeObjc+CAShapeLayer.swift */,
+				8F4399DC76B741F899F28598C4073188 /* ThemeObjc+UIBarButtonItem.swift */,
+				59BDD4A0BD08B4FAF462B042033B7186 /* ThemeObjc+UIBarItem.swift */,
+				93875D69BB41CD895D171BA7D003467D /* ThemeObjc+UIButton.swift */,
+				69FFA39770D293CFD6E4DE31F1B0654F /* ThemeObjc+UIImageView.swift */,
+				226CFB3D866606862D0B9BAE6E6A51CB /* ThemeObjc+UILabel.swift */,
+				5C081BD21E093FF97BB5A427BD8059C7 /* ThemeObjc+UINavigationBar.swift */,
+				EB217CCBA09209F69A3E4C80FE64BC97 /* ThemeObjc+UIPageControl.swift */,
+				B87C16A2BA69DEDE64817B4DDF671E08 /* ThemeObjc+UIProgressView.swift */,
+				CCFF18C3F98C8CED7DEB92AD02CAECE4 /* ThemeObjc+UISearchBar.swift */,
+				69C76D0183D9E8923C45F95DC1C02414 /* ThemeObjc+UISlider.swift */,
+				536BD6005E9BC75379AE96A89B37E94E /* ThemeObjc+UISwitch.swift */,
+				3FE242F01903BC8F76DB8BC5343A018F /* ThemeObjc+UITabBar.swift */,
+				7C0D59B485A75D6F2505D866D7BE1452 /* ThemeObjc+UITableView.swift */,
+				629A7EC406E6A84F76795AF32BE32E98 /* ThemeObjc+UITextField.swift */,
+				A00F5612D4B372E5208F65813ACBD374 /* ThemeObjc+UITextView.swift */,
+				91DA58408567DBA9A55C9673BA3D989A /* ThemeObjc+UIToolBar.swift */,
+				4040B3B07CA5F0705BEBF19E24A5C8AD /* ThemeObjc+UIView.swift */,
+				0CFC0E0934BE5076401EB9EAC40C9E36 /* XCTheme_objc.swift */,
 			);
 			name = Theme_objc;
 			path = XCTheme/Classes/Theme_objc;
 			sourceTree = "<group>";
 		};
+		FF017EC9EBB61DE269AFF23642F45038 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5C46F2BB860028D2469212D083D637F6 /* UIBarButtonItem+Theme.swift */,
+				F9481850DCE48AD15CE58483D8329898 /* UIBarItem+Theme.swift */,
+				6DEA77C1B5C8C80A7CCC8E9E28F1CD72 /* UIButton+Theme.swift */,
+				DF14D114673286A07917B6B68C4CE90C /* UIControl+Theme.swift */,
+				EECBAE4331CB35048F9820069329BBB9 /* UIImageView+Theme.swift */,
+				F859DF2A51B69D86709A4D1AEF311689 /* UILabel+Theme.swift */,
+				D5FC1C049F97C873BEF60F3A7068007E /* UINavigationBar+Theme.swift */,
+				C9B0FA721B7AED7D099203E81D344E1E /* UIPageControl+Theme.swift */,
+				DBA486C8D4A8F616573B0B648F56FD2E /* UIProgressView+Theme.swift */,
+				0879B866451886DFE1E313FD78103228 /* UISearchBar+Theme.swift */,
+				3471114DB28E55F88B7BA491B6127F73 /* UISlider+Theme.swift */,
+				82B0ED56BE9F4DCDD44B97D5CD5B63C7 /* UISwitch+Theme.swift */,
+				7E2E0A3629EAC1D216552778C0A99F72 /* UITabBar+Theme.swift */,
+				7CC4B380E27F9E0045D819F7B4FD47B3 /* UITableView+Theme.swift */,
+				00DB16BABB23F3586A1FB89DD2FCF189 /* UITextField+Theme.swift */,
+				EBB4D5D6D27CC5CF973B3C5D0A382FF3 /* UITextView+Theme.swift */,
+				7A7C694D75C6718822316456A6A3801B /* UIToolBar+Theme.swift */,
+				7B4F946CF8DD4486380087928E47D959 /* UIView+Theme.swift */,
+			);
+			name = UIKit;
+			path = XCTheme/Classes/UIKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1768E52847839C4AE83870344F3EE49D /* Headers */ = {
+		6FE326E6DA9337A898004B0B484CDBB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3AFDF3FEC8CDC56F7A8433A8CF9675 /* Pods-XCTheme_Example-umbrella.h in Headers */,
+				B1710F63A53DC250AA9A55A9EE99C564 /* XCTheme-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F6AE31FAECEBAF74A3C7506445624AC /* Headers */ = {
+		A0E64D05C03A82D3E40B7C0EEB2B7E54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EFF78FCB4C28474F55E19D2CF75DD0 /* Pods-XCTheme_Tests-umbrella.h in Headers */,
+				6281E881803A13D33FB70656E218D017 /* Pods-XCTheme_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84B47F1F10A6B627E1F1C71AE82FA50D /* Headers */ = {
+		BE781D3AC55DD526A18906A83C28FE99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A01E74111258DD89A04E81BBA8910C /* XCTheme-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,77 +390,57 @@
 /* Begin PBXNativeTarget section */
 		2DEF0FB59E778B083946CA004A77F8A1 /* XCTheme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7D844BD2DA0A86BF785FEF5332A41D2 /* Build configuration list for PBXNativeTarget "XCTheme" */;
+			buildConfigurationList = 5CBBDB98605BA861AC48C5E757371FDB /* Build configuration list for PBXNativeTarget "XCTheme" */;
 			buildPhases = (
-				84B47F1F10A6B627E1F1C71AE82FA50D /* Headers */,
-				E0151E4C3573F937740D7B89E6AC8A85 /* Sources */,
-				EECEE02D1438B024762A3614F6180D27 /* Frameworks */,
-				6466F2FA35847449EDE03B4BC82F2E78 /* Resources */,
+				6FE326E6DA9337A898004B0B484CDBB1 /* Headers */,
+				C2522045CEE79BF526D6827523F979C5 /* Sources */,
+				02794A9BA6987E56F292EE3693961F80 /* Frameworks */,
+				6833592EDF4B71C665589361BA5DF876 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B443ABEAD7D59A71EC0BDD4835884AD /* PBXTargetDependency */,
 			);
 			name = XCTheme;
 			productName = XCTheme;
-			productReference = C6480177DDE9CD84DC21D4A3DA9F6EB7 /* XCTheme.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = C6480177DDE9CD84DC21D4A3DA9F6EB7 /* XCTheme */;
+			productType = "com.apple.product-type.library.static";
 		};
 		5C200288F2237EF5FD4B81E1578552AC /* Pods-XCTheme_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC5AC0D1BF23BDD23951E6FE145CCBF2 /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Tests" */;
+			buildConfigurationList = 4F5A2180A4845BCF158645B0EC92ECCF /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Tests" */;
 			buildPhases = (
-				5F6AE31FAECEBAF74A3C7506445624AC /* Headers */,
-				2DE85137FB59941AFD90FAE807A8D3CC /* Sources */,
-				5FF596A27EB39F4BF350B61DBE758F2F /* Frameworks */,
-				D5AAF81251C3E65A4D76B94DC1E34E33 /* Resources */,
+				BE781D3AC55DD526A18906A83C28FE99 /* Headers */,
+				7BB2507A8CDCDCBD7C8914AB7340F26E /* Sources */,
+				DF7D98604D2D9CB171B463F697007E25 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				07825328BAE331DD103F12A178FA9A6E /* PBXTargetDependency */,
+				B5BB8735F5D2B89DDF1D436C3FA16F53 /* PBXTargetDependency */,
 			);
 			name = "Pods-XCTheme_Tests";
-			productName = Pods_XCTheme_Tests;
+			productName = "Pods-XCTheme_Tests";
 			productReference = 383CB5296A2286FBEFE2DE0F16B9FC6B /* Pods-XCTheme_Tests */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 		86FC0F806BE641E7F140ADEBDB435FEE /* Pods-XCTheme_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6FC9424BDE5BE6B37979BE0545B2234 /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Example" */;
+			buildConfigurationList = BB08DA0F21321D1D67C6251744FDA42F /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Example" */;
 			buildPhases = (
-				1768E52847839C4AE83870344F3EE49D /* Headers */,
-				1274397D333FAE38A9F85FE101313795 /* Sources */,
-				9CEB45AFD2771FC126A1C03E3C7856A1 /* Frameworks */,
-				848C21DDFE22183AD5BDF00C4A482AD4 /* Resources */,
+				A0E64D05C03A82D3E40B7C0EEB2B7E54 /* Headers */,
+				296DD240F5F8B8A4D165479E51F23DE3 /* Sources */,
+				AE172BA0F0BC3DD86B67F27A52A5D27C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54E20C3F19383FDC2C8F36097029DEAA /* PBXTargetDependency */,
+				753F451EFD0B6BA5F2BBB319E82CA7A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-XCTheme_Example";
-			productName = Pods_XCTheme_Example;
+			productName = "Pods-XCTheme_Example";
 			productReference = C75242814278E46A2BE3326BD8A78C31 /* Pods-XCTheme_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		DEF27AEC3EE4CFF110EB55DA108E43C2 /* XCTheme-XCTheme */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3955DC677771938D037EA84E4DC2ACC1 /* Build configuration list for PBXNativeTarget "XCTheme-XCTheme" */;
-			buildPhases = (
-				957B59DDBCC8DD1AF091D5BCA01F0595 /* Sources */,
-				EBB47A62C9C92A994ADFD4F1A3829355 /* Frameworks */,
-				047276D175B36C676387CB669ADB5714 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "XCTheme-XCTheme";
-			productName = XCTheme;
-			productReference = FE623931102E8FB85CDA780F45A8E3E7 /* XCTheme-XCTheme */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -529,151 +460,177 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F18433C18BC065782A1EB8DB0A0782AB /* Products */;
+			productRefGroup = E63533AA8D496CC7DD73FF8C52B93260 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				86FC0F806BE641E7F140ADEBDB435FEE /* Pods-XCTheme_Example */,
 				5C200288F2237EF5FD4B81E1578552AC /* Pods-XCTheme_Tests */,
 				2DEF0FB59E778B083946CA004A77F8A1 /* XCTheme */,
-				DEF27AEC3EE4CFF110EB55DA108E43C2 /* XCTheme-XCTheme */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		047276D175B36C676387CB669ADB5714 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		6833592EDF4B71C665589361BA5DF876 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6466F2FA35847449EDE03B4BC82F2E78 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67854CD9DE834AA3DABE16167FBC9C41 /* XCTheme-XCTheme in Resources */,
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/XCTheme/XCTheme.modulemap",
+				"${PODS_ROOT}/Headers/Public/XCTheme/XCTheme-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/XCTheme-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XCTheme/XCTheme.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XCTheme/XCTheme-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-		848C21DDFE22183AD5BDF00C4A482AD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5AAF81251C3E65A4D76B94DC1E34E33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1274397D333FAE38A9F85FE101313795 /* Sources */ = {
+		296DD240F5F8B8A4D165479E51F23DE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F32B13D5429ACBA73340E90BA45B3D /* Pods-XCTheme_Example-dummy.m in Sources */,
+				E4247655007E8B0D82DD9C8813C29754 /* Pods-XCTheme_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE85137FB59941AFD90FAE807A8D3CC /* Sources */ = {
+		7BB2507A8CDCDCBD7C8914AB7340F26E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09923F9C4AA9853A52CD1B903F28017 /* Pods-XCTheme_Tests-dummy.m in Sources */,
+				A4952FAD7C7C5B1ED697CA0DD8C90872 /* Pods-XCTheme_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		957B59DDBCC8DD1AF091D5BCA01F0595 /* Sources */ = {
+		C2522045CEE79BF526D6827523F979C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0151E4C3573F937740D7B89E6AC8A85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA674D20C9427DA6A11D81B74DFC6CF6 /* CALayer+Theme.swift in Sources */,
-				93414C08FDBC8F27DE23FE96B83A38BD /* CAShapeLayer+Theme.swift in Sources */,
-				799F0F72309C75D3C45A6841B6CA35D9 /* ThemeObjc+CALayer.swift in Sources */,
-				D9807CC13EDAAC120E8F725AF5B5241D /* ThemeObjc+CAShapeLayer.swift in Sources */,
-				4F7625AE07F771FC3784025F85683153 /* ThemeObjc+UIBarButtonItem.swift in Sources */,
-				899AC15517525AAE34118FF5380430F3 /* ThemeObjc+UIBarItem.swift in Sources */,
-				1E3E38DDBB381A65FB51555075301672 /* ThemeObjc+UIButton.swift in Sources */,
-				6953FA757293377C4A6CA0AE892FC813 /* ThemeObjc+UIImageView.swift in Sources */,
-				1F7247C818C3CACBBFE3CFFB9A0A7D1B /* ThemeObjc+UILabel.swift in Sources */,
-				362F0984CD25AC86FA1F5DA1B2023AB7 /* ThemeObjc+UINavigationBar.swift in Sources */,
-				641AAE8AF5117FC09825F450A3CC41BF /* ThemeObjc+UIPageControl.swift in Sources */,
-				48BC97303773696954F60D8B6DCAFC43 /* ThemeObjc+UIProgressView.swift in Sources */,
-				D39F647EE4CEB099E5EDEE20EE74B42E /* ThemeObjc+UISearchBar.swift in Sources */,
-				EB2CFA8AAD83EBB15EEB63A45426679B /* ThemeObjc+UISlider.swift in Sources */,
-				A7ED3E3A36C4724B2E16ACDF316FA427 /* ThemeObjc+UISwitch.swift in Sources */,
-				F7343D0AE2246903A5C3A9E7225A9BD8 /* ThemeObjc+UITabBar.swift in Sources */,
-				730DD6813C7330120CF1E2FBB7D27D36 /* ThemeObjc+UITableView.swift in Sources */,
-				85445E9049D216DA54AF4DC6EB18BE6A /* ThemeObjc+UITextField.swift in Sources */,
-				2DF0025C2FC0516B0AFA479EAC8EC491 /* ThemeObjc+UITextView.swift in Sources */,
-				EE2B986635AED6511A65C89B833A38B0 /* ThemeObjc+UIToolBar.swift in Sources */,
-				CB7D3CAC8DA34EFA43FD86882ADE5E90 /* ThemeObjc+UIView.swift in Sources */,
-				CAEE226A6FB4CC7D506333D239B7AF77 /* UIBarButtonItem+Theme.swift in Sources */,
-				C8FB059FF309F7545905B0C0DC77FD55 /* UIBarItem+Theme.swift in Sources */,
-				1FA534616624147FDA398AFB18CEF3CD /* UIButton+Theme.swift in Sources */,
-				AE39FE883EBAB02EC792522BE08F7EAA /* UIControl+Theme.swift in Sources */,
-				D184A8851D24F1AF56DADD1E9EAAD9EC /* UIImageView+Theme.swift in Sources */,
-				3796191C0258C0250E2C1118CEE9AB94 /* UILabel+Theme.swift in Sources */,
-				67EA36FD17F9A720BB7DB6E940D96FF9 /* UINavigationBar+Theme.swift in Sources */,
-				65E720B2B9E5105D6E63504117C76B08 /* UIPageControl+Theme.swift in Sources */,
-				CC2D666E7EE4472171B408F1E72DC917 /* UIProgressView+Theme.swift in Sources */,
-				B1C000E07BF2F0C0364F38D788403001 /* UISearchBar+Theme.swift in Sources */,
-				E8D95DCD1E4ADBC5CC76F0797F32013E /* UISlider+Theme.swift in Sources */,
-				E33D03E1263F3B2312168DC8E4FABF91 /* UISwitch+Theme.swift in Sources */,
-				EDA8E0CF745B8AFE27906800A5451583 /* UITabBar+Theme.swift in Sources */,
-				A4DEFB3FC39CBECABFB2D213284BC173 /* UITableView+Theme.swift in Sources */,
-				F908745F9CAC907FC6E8441F538864FB /* UITextField+Theme.swift in Sources */,
-				5F0A8CD410BD8C29BB247C03C37B9DEB /* UITextView+Theme.swift in Sources */,
-				3AE7352A965384395FF835FC5D864483 /* UIToolBar+Theme.swift in Sources */,
-				1FD76C5ECA3C8F99D43CC8A2E4B319DB /* UIView+Theme.swift in Sources */,
-				32C6067F813B5161DC3B2F9816C1715F /* XCTheme.swift in Sources */,
-				EECCC4120C8C2AF919AD59CE3CE7DB4A /* XCTheme-dummy.m in Sources */,
-				A84E35D3D319020C8349067332C12FD8 /* XCTheme_objc.swift in Sources */,
-				BF29E159120E15F30689A8F56B4BE86E /* XCThemeManager.swift in Sources */,
-				5D779C88785D7F6A4CE25C2805540220 /* XCThemeOperation.swift in Sources */,
-				36FA0E7F297CE8C6E59BB60D8A72F547 /* XCThemeTable.swift in Sources */,
+				70183F9BF544536C39C25B2C5EF64989 /* CALayer+Theme.swift in Sources */,
+				4E1B0095B5A0DEE669BE3A349CFACA1B /* CAShapeLayer+Theme.swift in Sources */,
+				02B4BD2AC0235729D41F784BA3839059 /* ThemeObjc+CALayer.swift in Sources */,
+				BF9DF32CBAE1F675A2420ED894E458C4 /* ThemeObjc+CAShapeLayer.swift in Sources */,
+				71AC4244EE3F84A71458C8DD0E0744DC /* ThemeObjc+UIBarButtonItem.swift in Sources */,
+				44BFFDF9469080E1F0E666B938EE18C2 /* ThemeObjc+UIBarItem.swift in Sources */,
+				14C522908E73ABE53D96E69E15D045C4 /* ThemeObjc+UIButton.swift in Sources */,
+				55F3C1A0F335E007FD8EEE6EB339C50C /* ThemeObjc+UIImageView.swift in Sources */,
+				2243860DEA65CFE2FBEB03F1FC48FD32 /* ThemeObjc+UILabel.swift in Sources */,
+				CC2512C7247E8155B431748958D71EE6 /* ThemeObjc+UINavigationBar.swift in Sources */,
+				0C4FC990FDEECAE8349683BC8A1C7496 /* ThemeObjc+UIPageControl.swift in Sources */,
+				235C986E6698DF2782AAC8D5DBD80755 /* ThemeObjc+UIProgressView.swift in Sources */,
+				D3A67DD930EDED10995990D6C95FDF56 /* ThemeObjc+UISearchBar.swift in Sources */,
+				45642B95B5F516E3CDB50EDD9893F3DA /* ThemeObjc+UISlider.swift in Sources */,
+				0968821FFA1E98F96CDD5713D3CB8A4A /* ThemeObjc+UISwitch.swift in Sources */,
+				0C5E9A5A7AD0BA03DA74C0F77E4F798D /* ThemeObjc+UITabBar.swift in Sources */,
+				5B16F468E405645ABBD5E9E1F05455C2 /* ThemeObjc+UITableView.swift in Sources */,
+				2AA40A36C2D240453E9A4BDA13E7D959 /* ThemeObjc+UITextField.swift in Sources */,
+				5D8DE650952C05E625A4524F95EFBEDB /* ThemeObjc+UITextView.swift in Sources */,
+				74E86DFC47335BF837A5704B50B3BAFE /* ThemeObjc+UIToolBar.swift in Sources */,
+				4DD8964D9EEF2112A85021DD8977914C /* ThemeObjc+UIView.swift in Sources */,
+				6599681A785D5768910CA62919130234 /* UIBarButtonItem+Theme.swift in Sources */,
+				FBD64120C97B02295C60066F0709D8D4 /* UIBarItem+Theme.swift in Sources */,
+				6A1F5DF09495DAACCA9AF589265731B3 /* UIButton+Theme.swift in Sources */,
+				C50F3BAC5929C9B578D388ADE60112ED /* UIControl+Theme.swift in Sources */,
+				C738A4080F6336EE3B2C8BA5310F1956 /* UIImageView+Theme.swift in Sources */,
+				72E3C091CFDEC07A437A13087E2F52DB /* UILabel+Theme.swift in Sources */,
+				5CE9C01603F534575CB45A92468924A3 /* UINavigationBar+Theme.swift in Sources */,
+				B51E5AF1BEDF707CBA2D3983F0005AB1 /* UIPageControl+Theme.swift in Sources */,
+				89E10AD417B3726652D8C8D57F6C406F /* UIProgressView+Theme.swift in Sources */,
+				0B519EB05122E5C8FB180DB8B1CE32F4 /* UISearchBar+Theme.swift in Sources */,
+				E3FDEAC432E8AD66481EF5A193A1B8CE /* UISlider+Theme.swift in Sources */,
+				0087D8CD1D5C8F1BCACE6727866178ED /* UISwitch+Theme.swift in Sources */,
+				D96F9CE0BC17AE5B1BD7A126E0443ECC /* UITabBar+Theme.swift in Sources */,
+				EEACAAA39D694ECFBE896C4D5F905B9F /* UITableView+Theme.swift in Sources */,
+				832E289B48901F3CFF044B267DE47761 /* UITextField+Theme.swift in Sources */,
+				4BA4113835188E4F0D4F921815BA41BC /* UITextView+Theme.swift in Sources */,
+				9A21C7F08CB772EF9BF14535886B5EEF /* UIToolBar+Theme.swift in Sources */,
+				B60D0C2233F8E18028B2F7F69A301C64 /* UIView+Theme.swift in Sources */,
+				15001BA0DA9B1838BEC225405C1A8550 /* XCTheme.swift in Sources */,
+				3B2D5D73E85ACDA56421D5BF151D43B7 /* XCTheme-dummy.m in Sources */,
+				BE08A7D45A166CB486B85C6120118304 /* XCTheme_objc.swift in Sources */,
+				5E78D10ABA8C84CB03480F172E9E7922 /* XCThemeManager.swift in Sources */,
+				8161126A8EA64CD70C873820DDDCD85A /* XCThemeOperation.swift in Sources */,
+				BAEDB17A0ED3ACEA5C95C14FECAF0B75 /* XCThemeTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07825328BAE331DD103F12A178FA9A6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XCTheme_Example";
-			target = 86FC0F806BE641E7F140ADEBDB435FEE /* Pods-XCTheme_Example */;
-			targetProxy = 6CED9CEEA137E730DB45808A3F8DB7AF /* PBXContainerItemProxy */;
-		};
-		0B443ABEAD7D59A71EC0BDD4835884AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XCTheme-XCTheme";
-			target = DEF27AEC3EE4CFF110EB55DA108E43C2 /* XCTheme-XCTheme */;
-			targetProxy = ACF4C70766FE33DAC9C8B84BF767DE0B /* PBXContainerItemProxy */;
-		};
-		54E20C3F19383FDC2C8F36097029DEAA /* PBXTargetDependency */ = {
+		753F451EFD0B6BA5F2BBB319E82CA7A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XCTheme;
 			target = 2DEF0FB59E778B083946CA004A77F8A1 /* XCTheme */;
-			targetProxy = ED547C87F32590E560F0F3648ADB4D92 /* PBXContainerItemProxy */;
+			targetProxy = 721FE43BBFEE67FD138234AAB8B59E59 /* PBXContainerItemProxy */;
+		};
+		B5BB8735F5D2B89DDF1D436C3FA16F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XCTheme_Example";
+			target = 86FC0F806BE641E7F140ADEBDB435FEE /* Pods-XCTheme_Example */;
+			targetProxy = 6A4BF1F80A9E0B57421EFCE61B6EBD2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		26036889B572F7233C13C54C6135899D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC517A0F4B02B5562461964187A20D0 /* Pods-XCTheme_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B06392917855A3B0802E495666FEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6916104EF86A56D49C2A63892042F469 /* Pods-XCTheme_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCTheme_Example/Pods-XCTheme_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -726,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -739,167 +696,57 @@
 			};
 			name = Debug;
 		};
-		34CB2615CB8B17FE94745CB3AE831601 /* Debug */ = {
+		518BC0F4EEA17F20826659C3BE0BFAF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 559EB3BCD399295465E5359D85E4B3B6 /* XCTheme.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XCTheme/XCTheme-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XCTheme/XCTheme-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/XCTheme/XCTheme.modulemap";
-				PRODUCT_MODULE_NAME = XCTheme;
-				PRODUCT_NAME = XCTheme;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4DC70DA1B5F304F530D706B0561A0414 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAFDA3982B488D19D5809D6F741B9298 /* Pods-XCTheme_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6EA54440DB4A33248F18399C1D0A5256 /* Pods-XCTheme_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCTheme_Tests/Pods-XCTheme_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XCTheme_Tests/Pods-XCTheme_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5602F35FDAE4FE411A7281EB3FFA3907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A1CC14C039AA2643900195848A7BF5F /* Pods-XCTheme_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCTheme_Example/Pods-XCTheme_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XCTheme_Example/Pods-XCTheme_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		677658D7A76DCDF305D49CD129FD2D18 /* Release */ = {
+		62211A5310DFE4C466E030DC02656AC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55E3B5B8D47E56F88D33200942F7845C /* XCTheme.release.xcconfig */;
+			baseConfigurationReference = 30E3855CD40C8D3F970A4539BBDCB783 /* XCTheme.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/XCTheme/XCTheme-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XCTheme/XCTheme-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/XCTheme/XCTheme.modulemap";
+				MODULEMAP_FILE = Headers/Public/XCTheme/XCTheme.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = XCTheme;
 				PRODUCT_NAME = XCTheme;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8556BF4469DDA4AB6F0C33212BF9C76B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 559EB3BCD399295465E5359D85E4B3B6 /* XCTheme.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCTheme";
-				IBSC_MODULE = XCTheme;
-				INFOPLIST_FILE = "Target Support Files/XCTheme/ResourceBundle-XCTheme-XCTheme-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = XCTheme;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C9790ACEB70D19B503C57F0542BC3AC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55E3B5B8D47E56F88D33200942F7845C /* XCTheme.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCTheme";
-				IBSC_MODULE = XCTheme;
-				INFOPLIST_FILE = "Target Support Files/XCTheme/ResourceBundle-XCTheme-XCTheme-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = XCTheme;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -949,126 +796,101 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D5FB1B4608570A8EAB8FBF330B45A6AA /* Release */ = {
+		C994789B8043004F72A12ACE1B3C84A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A78B7D20F214DE638306A41188BCB390 /* Pods-XCTheme_Tests.release.xcconfig */;
+			baseConfigurationReference = B9EFCC3E777A6F740233784BA5E086CC /* Pods-XCTheme_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCTheme_Tests/Pods-XCTheme_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XCTheme_Tests/Pods-XCTheme_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E02954950FDE84CBBB8FAF5F205BE513 /* Debug */ = {
+		ED93A4492E956ABEB60E36654CE43689 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15FDCC8BC569F780364A5CD933A2A73C /* Pods-XCTheme_Example.debug.xcconfig */;
+			baseConfigurationReference = 8A013EB836747B79DD06EDFA26FE1AD9 /* XCTheme.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCTheme_Example/Pods-XCTheme_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/XCTheme/XCTheme-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XCTheme_Example/Pods-XCTheme_Example.modulemap";
+				MODULEMAP_FILE = Headers/Public/XCTheme/XCTheme.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XCTheme;
+				PRODUCT_NAME = XCTheme;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3955DC677771938D037EA84E4DC2ACC1 /* Build configuration list for PBXNativeTarget "XCTheme-XCTheme" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8556BF4469DDA4AB6F0C33212BF9C76B /* Debug */,
-				C9790ACEB70D19B503C57F0542BC3AC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7D844BD2DA0A86BF785FEF5332A41D2 /* Build configuration list for PBXNativeTarget "XCTheme" */ = {
+		4F5A2180A4845BCF158645B0EC92ECCF /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34CB2615CB8B17FE94745CB3AE831601 /* Debug */,
-				677658D7A76DCDF305D49CD129FD2D18 /* Release */,
+				26036889B572F7233C13C54C6135899D /* Debug */,
+				C994789B8043004F72A12ACE1B3C84A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC5AC0D1BF23BDD23951E6FE145CCBF2 /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Tests" */ = {
+		5CBBDB98605BA861AC48C5E757371FDB /* Build configuration list for PBXNativeTarget "XCTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC70DA1B5F304F530D706B0561A0414 /* Debug */,
-				D5FB1B4608570A8EAB8FBF330B45A6AA /* Release */,
+				ED93A4492E956ABEB60E36654CE43689 /* Debug */,
+				62211A5310DFE4C466E030DC02656AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6FC9424BDE5BE6B37979BE0545B2234 /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Example" */ = {
+		BB08DA0F21321D1D67C6251744FDA42F /* Build configuration list for PBXNativeTarget "Pods-XCTheme_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E02954950FDE84CBBB8FAF5F205BE513 /* Debug */,
-				5602F35FDAE4FE411A7281EB3FFA3907 /* Release */,
+				26B06392917855A3B0802E495666FEDD /* Debug */,
+				518BC0F4EEA17F20826659C3BE0BFAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
